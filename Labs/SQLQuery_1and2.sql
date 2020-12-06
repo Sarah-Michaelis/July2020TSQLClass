@@ -1,3 +1,16 @@
+-- Lab 1
+SELECT  DepartmentID,
+        Name,
+        GroupName
+        -- ModifiedDate
+FROM  HumanResources.Department;
+
+PRINT 'T-SQL is fun!'
+
+SELECT 'T-SQL is fun!' AS MESSAGE;
+
+
+-- Lab 2.1
 SELECT TOP(5) [CustomerID],
         [StoreID],
         [AccountNumber]
@@ -12,6 +25,7 @@ SELECT TOP(50)PERCENT
     [OrderDate]
 FROM [Sales].[SalesOrderHeader]
 
+-- Lab 2.2
 SELECT Distinct [BusinessEntityID],
         [LastName],
         [FirstName],
